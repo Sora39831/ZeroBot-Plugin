@@ -148,6 +148,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wife"             // 抽老婆
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/word_count"       // 聊天热词
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wordle"           // 猜单词
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/xingzuo"          // 星座占卜
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ygo"              // 游戏王相关插件
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"            // 月幕galgame
 

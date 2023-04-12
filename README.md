@@ -1493,6 +1493,14 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 <details>
+  <summary>星座运势</summary>
+
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/xingzuo"`
+
+  - [x] 今日[白羊座|金牛座|双子座|巨蟹座|狮子座|处女座|天秤座|天蝎座|射手座|摩羯座|水瓶座|双鱼座]
+
+</details>
+<details>
   <summary>一些游戏王插件</summary>
 
   `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/ygo"`
