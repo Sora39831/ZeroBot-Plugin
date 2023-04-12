@@ -21,7 +21,7 @@ func init() {
 			ctx.Send("插件已禁用")
 		},
 	})
-	engine.OnRegex(`^今日(.{1,25})$`).SetBlock(true).
+	engine.OnRegex(`^今日(.{1,25})座`).SetBlock(true).
 		Handle(func(ctx *zero.Ctx) {
 			xz := ctx.State["regex_matched"].([]string)[1]
 			data, err := web.GetData("https://xiaoapi.cn/API/xzys_pic.php?msg=" + xz)
